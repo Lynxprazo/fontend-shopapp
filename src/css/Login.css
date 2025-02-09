@@ -1,0 +1,112 @@
+.box {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 500px;
+  width: 440px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 100px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 5px solid rgba(155, 141, 141, 0.5);
+  box-shadow: 5px 5px 5px rgb(47, 47, 47);
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: transparent;
+  backdrop-filter: blur(15px);
+}
+.LoginForm-Ti{
+  width: 100%;
+  height: 5vh;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(247, 243, 184);
+}
+.LoginForm-Tir{
+  width: 100%;
+  height: 15vh;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 32px;
+}
+.title1 {
+  height: auto;
+  width: auto;
+  margin-bottom: 80px;
+  color: rgb(0, 0, 0);
+  pointer-events: none;
+}
+.button {
+  height: 33px;
+  width: 160px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: rgb(45, 42, 242);
+  background: rgb(250, 180, 240);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button:hover {
+  transform: translateY(-10px);
+  background-color: #14a3c7;
+  color: rgb(255, 255, 255);
+}
+.link {
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.Input-box {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.Input-box input {
+  width: 25vh;
+  height: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(59, 61, 61);
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
+.Input-box label {
+  position: absolute;
+  transition: all ease-in 300ms;
+  pointer-events: none;
+  bottom: 20px;
+  font-size: 20px;
+}
+.Input-box input:focus~label,
+.Input-box input:valid~label {
+  transform: translateY(-20px);
+  color: #14a3c7;
+}
+.bg img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+.Input-box {
+  margin-bottom: 15px;
+}
+
+.Input-box p {
+  background-color: #f59a9a;
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}

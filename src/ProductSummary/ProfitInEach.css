@@ -1,0 +1,67 @@
+@keyframes listanime {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50%{
+      opacity: 0.5;
+      transform: translateY(10px);
+  }
+  75%{
+    opacity: 0.7;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.InEachbtn{
+   width:15%;
+   height: 4vh;
+   margin-bottom: 12px;
+   margin-left: 12px;
+   border: none;
+   background-color: rgba(29, 110, 186, 0.669);
+   border-radius: 4px;
+   font-size: 18px;
+   color: azure;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.list-item {
+  display: flex;
+  border: 1px inset white;
+  flex-direction: row;
+  opacity: 0;
+  animation: listanime 0.5s forwards;
+}
+.list-item div{
+  border-collapse: collapse;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Productname{
+  width: 25%;
+  background-color: rgb(125, 190, 247);
+  color: aliceblue;
+  font-size: 22px;
+}
+.Selliprice{
+  width: 25%;
+  background-color: rgb(83, 169, 243);
+  color: rgb(234, 234, 234);
+  font-size: 22px;
+}
+.Boughtprice{
+  width: 25%;
+  background-color: rgb(40, 147, 241);
+  color: rgb(234, 234, 234);
+  font-size: 22px;
+}
+.Profitgenerated{
+  width: 25%;
+  background-color: rgb(10, 135, 245);
+  color: rgb(234, 234, 234);
+  font-size: 22px;
+}

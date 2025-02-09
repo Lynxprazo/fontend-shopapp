@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.info-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.report-site {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 70px;
+}
+
+.report-site div {
+  background-color: rgb(200, 200, 200);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 6px;
+  padding: 10px;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px,
+    rgba(0, 0, 0, 0.12) 0px -80px 80px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 10px 10px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: ease-in-out 1s;
+}
+.report-site div:hover {
+  background-color: rgb(44, 44, 44);
+  color: rgb(232, 237, 241);
+  cursor: pointer;
+  border: none;
+}
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 24%;
+  margin-left: 45px;
+  opacity: 0;
+  cursor: none;
+  background-color: aliceblue;
+  border: 1px solid whitesmoke;
+  border-radius: 3px;
+  transition: ease-in 500ms;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.dropdown-menu li a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid whitesmoke;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+  transition: ease-in 200ms;
+  list-style: none;
+}
+.dropdown-menu li:hover {
+  background-color: rgb(4, 117, 210);
+  padding: 20px;
+  transition: ease-in-out 1s;
+  border-radius: 3px;
+  border-left: none;
+  border-right: none;
+  z-index: 3;
+  bottom: 3px;
+}
+.dropdown-menu li a:hover {
+  transform: scale(2);
+  color: aliceblue;
+  transition: ease-in-out 200ms;
+}
+.dropdown-menu.Show {
+  opacity: 1;
+  cursor: pointer;
+  transition: ease-in-out 500ms;
+}
+.main-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 5vh;
+  background-color: whitesmoke;
+  margin-bottom: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main-link a {
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px rgb(66, 66, 66);
+  font-weight: 600;
+ 
+}

@@ -1,0 +1,16 @@
+.chick{
+height: 60px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.chick img {
+    height: 80%;
+    cursor: none;
+    width: 35px;
+    height: 45px;
+    border: 2px solid rgb(250, 253, 161);
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px;
+}

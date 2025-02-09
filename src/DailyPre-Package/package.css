@@ -1,0 +1,117 @@
+.Prepackage-Container{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    
+}
+.Prepackage-Button{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PrepackageTB-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.PrepackageTB-Container table {
+    width: 80%;
+    -webkit-box-reflect:below 17px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.PrepackageTB-Container table thead{
+    background-color: black;
+    color: white;
+    border:  2px inset white;
+}
+.PrepackageTB-Container table thead tr th{
+    border-collapse: collapse ;
+    border: none;
+}
+.PrepackageTB-Container tbody{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+}
+.PrepackageTB-Container tbody tr td{
+    border-bottom:2px solid rgba(0, 0, 42, 0.436);
+    border-collapse: collapse;
+    
+}
+.Prepackage-Button{
+    width: 100%;
+    height: 4svh;
+    justify-content: center;
+    align-items: center;
+}
+.Prepackage-Button button{
+    width: 10%;
+    height: 29px;
+    border-radius: 5px;
+    border: 2px inset white;
+    color: rgb(23, 23, 124);
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all ease-in-out 500ms;
+}
+.Prepackage-Button button:hover{
+   background: black;
+   -webkit-box-reflect:below 17px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   color: white;
+   transform: translateY(10px);
+   border: none;
+}
+.mainPrepackageCollect-container{
+    margin-top: 12px;
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+}
+.inner-Prepackage{
+    border: 2px solid whitesmoke;
+    width: 45%;
+    height: 12svh;
+    background-color: #dfe9f3;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+.inner-Prepackage button{
+    height: 5svh;
+    width: 20%;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 20px;
+    font-weight: bold;
+    transition: ease-in 500ms ;
+
+}
+.inner-Prepackage p{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.inner-Prepackage button:hover{
+    border:1px solid #537895;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-size: 20px;
+    background-color: #dfe9f3;
+
+    
+}
+.inner-Prepackage p::after{
+    content: attr(prepackage-text);
+    position: absolute;
+    transform: scaleY(-1);
+    top: 24.4%;
+    left: 64.5%;
+    text-shadow: none;
+    filter: blur(0.5px);
+    opacity: 0.3;
+}

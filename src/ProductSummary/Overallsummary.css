@@ -1,0 +1,131 @@
+.main-containerovsum{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main-containerovsum button{
+    width: 20%;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-containerovsum button:hover{
+   transform: translateY(12px);
+   transition: ease-in 500ms;
+}
+.main-containerovsum h1{
+    width: 80%;
+    border: 1px solid green;
+}
+.Hpercent-circle{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid rgb(249, 249, 249);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px , rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 4px;
+    background-color:#F9F9F9 ;
+    animation: AnimePerCircle 2s linear;
+    
+}
+.Hepercent-circle{
+  margin-left: 6px;
+}
+@keyframes AnimePerCircle {
+    0% {
+        transform: translateX(70px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(63px);
+        opacity: 0.1;
+    }
+    20% {
+        transform: translateX(56px);
+        opacity: 0.2;
+    }
+    30% {
+        transform: translateX(49px);
+        opacity: 0.3;
+    }
+    40% {
+        transform: translateX(42px);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateX(35px);
+        opacity: 0.5;
+    }
+    60% {
+        transform: translateX(28px);
+        opacity: 0.6;
+    }
+    70% {
+        transform: translateX(21px);
+        opacity: 0.7;
+    }
+    80% {
+        transform: translateX(14px);
+        opacity: 0.8;
+    }
+    90% {
+        transform: translateX(7px);
+        opacity: 0.9;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+/* Css code For Progressive Circle */
+.main-containerCirle{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+
+    
+}
+.main-containerCirle div{
+    width:70px;
+    margin-right: 12px;
+    padding: 16.5px;
+    display: flex;
+    height: 70px;
+    background:rgb(255, 255, 255);
+    border: 1px solid blue;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0, 0) 4px 2px 8px;
+}
+.main-containerCirle div .inner{
+    width: 35px;
+    height: 35px;
+    background:transparent;
+    border: 1px solid rgb(56, 129, 135);
+    border-radius: 50%;
+    box-shadow: rgb(39, 39, 39) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    background-color: rgb(120, 210, 210);
+    z-index: 12;
+    
+}
+@keyframes animecircle{
+    from{
+       transform: rotate(0deg);
+       background-color: red;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}
+.main-containerCirle.Outer{
+    transition:transform  2s ease-in;
+}
+.Progressive{
+    animation: animecircle 2s linear infinite;
+}

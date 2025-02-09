@@ -1,0 +1,59 @@
+.FormDaily-container {
+  position: fixed;
+  width: 30%;
+  height: 65vh;
+  border: 2px solid white;
+  backdrop-filter: blur(22px);
+  border-radius: 5px;
+  margin-top: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.FormDaily-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.FormDaily-body input {
+  outline:2px solid green;
+  width: 300px;
+  border: 2px solid rgb(71, 71, 192);
+  height: 4vh;
+  border-radius: 4px;
+}
+.FormDaily-body label {
+  color: rgb(24, 69, 218);
+  font-size: 25px;
+  font-weight: 700;
+}
+.FormDaily-body input[type] {
+  background-color: transparent;
+  font-size: 20px;
+  color: rgb(19, 27, 31);
+  margin-bottom: 20px;
+}
+.FormDaily-body select {
+  width: 300px;
+  height: 4svh;
+  border: 2px solid rgb(71, 71, 192);
+  outline:2px solid green;
+  border-radius: 4px;
+  background: transparent;
+  color: rgb(245, 59, 59);
+  font-size: 20px;
+  font-weight: 30;
+  margin-bottom: 12px;
+}
+.FormDaily-body option {
+  background-color: rgb(63, 63, 63);
+}
+.Error{
+  background-color: #f8d7da;
+  color: #df4759;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}

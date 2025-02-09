@@ -1,0 +1,10 @@
+.Psummary-container{
+    width: 100%;
+    height: 150vh;
+   
+}
+.Pcomponent-Container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}

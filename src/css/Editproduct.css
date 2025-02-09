@@ -1,0 +1,117 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-component input[type="search"] {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  font-size: 16px;
+  width: 100%;
+  background: none;
+}
+
+.search-component  input[type="search"]::placeholder {
+  color: #888;
+}
+
+.search-container svg {
+  color: #555;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.search-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search-container:focus-within {
+  border-color: #007bff;
+}
+
+.search-container svg:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.Addproduct-container  {
+  display: flex;
+  top: 5px;
+  width: 990px;
+  height: auto;
+  border: 3px solid green;
+  border-radius: 8px;
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.trhead-container td{
+  padding: 5px;
+  width: auto;
+  font-weight: bold;
+  color : rgb(39, 59, 156);
+  text-shadow: #393838;
+  border: 1px solid rgb(32, 104, 167);
+  border-top-right-radius: none;
+  border-radius: 5px;
+
+
+}
+.tbody-product td{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid rgb(213, 243, 168);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 2px;
+  color: #691a1e;
+}
+
+.total{
+  display: flex;
+  background-color: rgb(227, 227, 227);
+  width: 40%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 400px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer;
+}
+
+.total p{
+  font-size: 50px;
+  color: #555;
+}
+.submit{
+  width: 25%;
+  height: 5vh;
+  cursor: pointer;
+  background-color: #393838;
+  border-radius: 5px;
+  color: whitesmoke;
+  transition: ease-in-out 1s;
+}
+.submit:hover{
+transform: translateX(-20px);
+background-color: #ccc;
+color:#555;
+font-size: 20px;
+}
+.BsFillTrashFill{
+  transition: all ease-in-out 300ms;
+}
+.BsFillTrashFill:hover{
+  font-size: 25px;
+
+}

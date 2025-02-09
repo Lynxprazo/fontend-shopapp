@@ -1,0 +1,115 @@
+.modal-content {
+  width: 100%;
+  height: 65svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 30%;
+  height: 60svh;
+  backdrop-filter: blur(22px);
+  background-color: rgb(246, 246, 246);
+  border: 2px solid white;
+  border-radius: 4px;
+  backdrop-filter: blur(22px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.modal-content label {
+  font-size: larger;
+  font-weight: 700;
+}
+.modal-content input[type="text"] {
+  width: 300px;
+  height: 4svh;
+  border: none;
+}
+.modal-content input[type="date"] {
+  width: 300px;
+  height: 4svh;
+  text-align: center;
+  font-size: large;
+  border: none;
+}
+.styled-textarea {
+  width: 350px;
+  height: 80px;
+  padding: 10px;
+  font-size: 16px;
+  resize: both;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn2 {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(10, 10, 10);
+  transition: 0.7s all;
+  box-shadow: 0px 5px 5px #ccc;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.btn2:hover {
+  transform: translateY(5px);
+  cursor: pointer;
+  background-color: #42a942;
+}
+.modal-content input,
+textarea {
+  outline: none;
+  border: 2px solid rgb(33, 111, 255);
+  box-shadow: 0px 5px 5px #ccc;
+  border-radius: 5px;
+  background: white;
+  margin: 10px;
+}
+.close {
+  cursor: pointer;
+  margin-left: 400px;
+  margin-bottom: 10px;
+  height: 5vh;
+  width: 5vh;
+  font-weight: 900;
+  font-size: 35px;
+ 
+}
+.close:hover {
+  color: rgb(224, 211, 211);
+  background-color: rgb(243, 88, 88);
+}
+.headdb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: black;
+  color: rgb(61, 61, 61);
+}
+.close p{
+    margin-left: 6.5px;
+}
+.headdb p {
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: 2px 1px 2px rgb(35, 36, 36);
+
+}
